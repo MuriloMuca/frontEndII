@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+    font-family: 'Fredoka One', cursive;
+}
+.fa-trash-alt {
+    color: red;
+}
+.fa-info-circle {
+    color: black;
+}
+.fa-hourglass-half {
+    color: black;
+}
+.fa-calendar-alt {
+    color: black;
+}
+.todo-body {
+    margin: 0 1em;
+    border-radius: 2em;
+    background-color: #EFF1F2;
+}
+.todo-input {
+    margin: 1em 0.5em;
+    background-color: black;
+    min-height: 4em;
+    border-radius: 1em;
+    align-items: center;
+}
+.todo-input input {
+    border: none;
+}
+.todo-input input:focus {
+    box-shadow: none;
+}
+.todo-list {
+    align-items: center;
+    min-height: 3em;
+    border-radius: .5em;
+    margin: 1em .15em;
+    background-color: #e9e9e9;
+
+}
+.btn-primary{
+    color: black;
+    background-color: #3b71e0;
+    border-color: #0d6efd;
+}
+.date-limit {
+    padding: .35em;
+    border-radius: .25em;
+
+}
+.ul-limit {
+    /* box-shadow: red 0 0 .1em .1em; */
+}
+
+.is-invalid {
+    box-shadow: red 0 0 .1em .1em;
+}
+.form-check-input:checked {
+ box-shadow: gray 0 0 .1em .1em;
+ background-color: green;
+ border-color: gray;
+
+}
+
+.animationList {
+    transition: 1s ease-in-out;
+    transform: rotateX(360deg);
+    background-color: rgba(0, 128, 0, 0.363);
+    text-decoration: line-through;
+
+}
+h3, h3 a {
+    background-color: #c0c0c0;
+    border-radius: .25em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
